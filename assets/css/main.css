@@ -166,7 +166,7 @@ input, select, textarea {
 
 	hr {
 		border-top: solid 1px rgba(124, 128, 129, 0.2);
-		border: 0;
+		/*border: 0;*/
 		margin-bottom: 1.5em;
 	}
 
@@ -1766,13 +1766,14 @@ input, select, textarea {
 		}
 
 		header.special .icon {
-			cursor: default;
+			/*cursor: default;
 			height: 7em;
-			left: 0;
-			position: absolute;
+			/*left: 0;
+			position: relative;
 			text-align: center;
 			top: 1em;
 			width: 100%;
+			margin: 0;*/
 		}
 
 			header.special .icon:before {
@@ -1986,7 +1987,7 @@ input, select, textarea {
 		.icon.featured {
 			cursor: default;
 			display: block;
-			margin: 0 0 1.5em 0;
+			/*margin: 0 0 1.5em 0;*/
 			opacity: 0.35;
 			text-align: center;
 		}
@@ -2530,12 +2531,12 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../../images/banner.jpg");
+		background-color: sandybrown;
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
-		color: #fff;
+		color: white;
 		cursor: default;
 		padding: 6em 0;
 		text-align: center;
@@ -2623,6 +2624,34 @@ input, select, textarea {
 	body.index #main {
 		padding-top: 5em;
 	}
+
+	 #main header p, ol, ul{
+		text-align: justify;
+		 margin-left: 5em;
+		 margin-right: 5em;
+	}
+
+	 /*#main header .icon1{
+		 position: relative;
+	 }*/
+
+	 .icone1{
+		 display: flex;
+		 align-items: flex-end;
+		 gap: 0.8em;
+		 margin-bottom: 1.5em;
+	 }
+
+	 .icone1 .icon {
+		 font-size: 2em;
+		 color: gold;
+		 flex-shrink: 0;
+		 height: 7em;
+	 }
+
+	 .icon p ul{
+		 margin: 0;
+	 }
 
 /* CTA */
 
