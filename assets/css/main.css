@@ -1768,7 +1768,7 @@ input, select, textarea {
 		header.special .icon {
 			/*cursor: default;
 			height: 7em;
-			/*left: 0;
+			left: 0;
 			position: relative;
 			text-align: center;
 			top: 1em;
@@ -2630,10 +2630,6 @@ input, select, textarea {
 		 margin-left: 5em;
 		 margin-right: 5em;
 	}
-
-	 /*#main header .icon1{
-		 position: relative;
-	 }*/
 
 	 .icone1{
 		 display: flex;
