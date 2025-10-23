@@ -2638,19 +2638,66 @@ input, select, textarea {
 	 .icone1{
 		 display: flex;
 		 align-items: flex-end;
-		 gap: 0.8em;
+		 /*gap: 0.8em;*/
 		 margin-bottom: 1.5em;
 	 }
 
 	 .icone1 .icon {
-		 font-size: 2em;
+		 font-size: 1.8em;
 		 color: gold;
 		 flex-shrink: 0;
 		 height: 7em;
+		 background-position-y: center;
 	 }
 
+	.icone2{
+		display: flex;
+		align-items: flex-end;
+		/*gap: 0.8em;*/
+		margin-bottom: 1.5em;
+	}
+
+	.icone2 .icon {
+		font-size: 2em;
+		color: blue;
+		flex-shrink: 0;
+		height: 4em;
+		background-position-y: center;
+	}
+
+	.icone3{
+		display: flex;
+		align-items: flex-end;
+		/*gap: 0.8em;*/
+		margin-bottom: 1.5em;
+	}
+
+	.icone3 .icon {
+		font-size: 2em;
+		color: red;
+		flex-shrink: 0;
+		height: 6em;
+		background-position-y: center;
+	}
+
+	.icone4{
+		display: flex;
+		align-items: flex-end;
+		/*gap: 0.8em;*/
+		margin-bottom: 1.5em;
+	}
+
+	.icone4 .icon {
+		font-size: 2em;
+		color: yellowgreen;
+		flex-shrink: 0;
+		height: 3.5em;
+		background-position-y: center;
+	}
+
 	 .icon p ul{
-		 margin: 0;
+		 margin-left: -2em;
+		 margin-right: -2em;
 	 }
 
 /* CTA */
