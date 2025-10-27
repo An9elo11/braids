@@ -180,6 +180,23 @@ input, select, textarea {
 		font-weight: bold;
 	}
 
+	#S, #M, #L {
+		display: none;
+		transition : all 0.3s ease;
+	}
+
+	#affS, #affM, #affL {
+		cursor: pointer;
+	}
+
+	.arrow {
+		transition: transform 0.3s ease-in-out;
+	}
+
+	.arrow.active {
+		transform: rotate(90deg);
+	}
+
 /* Container */
 
 	.container {
@@ -1999,6 +2016,10 @@ input, select, textarea {
 
 		.icon > .label {
 			display: none;
+		}
+
+		.icon.fa-chevron-right{
+			float: right;
 		}
 
 /* List */
