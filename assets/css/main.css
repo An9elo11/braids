@@ -1,5 +1,7 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&family=Lobster+Two:wght@400;700&family=Lora:wght@400;500;600&family=Playfair+Display:wght@600;700&family=Poppins:wght@400;500;600&display=swap');
+
 
 /*
 	Twenty by HTML5 UP
@@ -83,7 +85,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f3f6fa;
+		background: chocolate;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -98,8 +100,8 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #7c8081;
-		font-family: 'Lato', sans-serif;
+		color: beige;
+		font-family: 'Lora', serif;
 		font-size: 15pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
@@ -125,15 +127,16 @@ input, select, textarea {
 	}
 
 	p, ul, ol, dl, table, blockquote {
-		margin: 0 0 2em 0;
+		margin: 1em 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
-		font-weight: 300;
+		font-family: 'Playfair Display', serif;
+		font-weight: 700;
 		line-height: 1.75em;
 		margin-bottom: 1em;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -144,12 +147,12 @@ input, select, textarea {
 
 	h2 {
 		font-size: 1.5em;
-		letter-spacing: 0.1em;
+		/*letter-spacing: 0.1em;*/
 	}
 
 	h3 {
 		font-size: 1.15em;
-		letter-spacing: 0.025em;
+		/*letter-spacing: 0.025em;*/
 	}
 
 	sub {
@@ -167,7 +170,12 @@ input, select, textarea {
 	hr {
 		border-top: solid 1px rgba(124, 128, 129, 0.2);
 		/*border: 0;*/
-		margin-bottom: 1.5em;
+		/*margin-bottom: 1.5em;*/
+
+	}
+
+	hr.short {
+		width : 90%;
 	}
 
 	blockquote {
@@ -176,7 +184,7 @@ input, select, textarea {
 		padding: 1em 0 1em 2em;
 	}
 
-	.modèle{
+	.modèle {
 		font-weight: bold;
 	}
 
@@ -187,6 +195,8 @@ input, select, textarea {
 
 	#affS, #affM, #affL {
 		cursor: pointer;
+		font-weight: 1000;
+		font-size: 1.3em;
 	}
 
 	.arrow {
@@ -195,6 +205,15 @@ input, select, textarea {
 
 	.arrow.active {
 		transform: rotate(90deg);
+	}
+
+	.modTitre {
+		font-family: 'Fondamento', serif;
+		font-size: 3em;
+	}
+
+	.longueur {
+		font-family: 'Poppins', serif;
 	}
 
 /* Container */
@@ -2620,6 +2639,7 @@ input, select, textarea {
 
 	#main {
 		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
+		/*background-color: saddlebrown;*/
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
@@ -2651,6 +2671,10 @@ input, select, textarea {
 		 margin-left: 5em;
 		 margin-right: 5em;
 	}
+
+	 #main > .wrapper {
+		 background: sandybrown;
+	 }
 
 	 .icone1{
 		 display: flex;
